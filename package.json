@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm update && cp server.js dist/server.js && node dist/server.js",
-    "build": "ng build",
+    "start": "npm update && ng build && cp server.js dist/server.js && node dist/server.js",
+    "build": "npm update && ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
